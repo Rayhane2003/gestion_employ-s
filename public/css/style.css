@@ -1,0 +1,386 @@
+.Details{
+  margin-top: 10%;
+  margin-left: -15%;
+}
+.container-fluid{
+  background-color: #f7f8f8;
+ 
+}
+.chart{
+  margin-left: 5%;
+}
+ 
+   .error small {
+      color: #dc3545;
+      font-size: 0.875em;
+    }
+    .error input {
+      border-color: #dc3545;
+    }
+    .container{
+        width: 1000px;
+        padding-left: 10%;
+        position:absolute;
+    }
+ 
+    /* Enhanced Table Styling */
+    .employee-table-container {
+     background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      padding: 15px; /* Reduced from 25px */
+      margin-top: 10px;
+     margin-left: -25%;
+       /* Reduced from 20px */
+      overflow: hidden;
+      width: 145%;
+    }
+    
+    /* Add this to remove space above the title */
+    .title {
+      margin-bottom: 10px;
+    }
+    
+    /* Adjust the container padding */
+    .container.contact {
+      padding-top: 0;
+    }
+    
+    /* Reduce space in panel heading */
+    .panel-heading {
+      margin-bottom: 10px;
+    }
+    
+    .employee-table {
+      border-collapse: separate;
+      border-spacing: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: bold;
+      font-size: 20%;
+       
+    }
+    
+    .employee-table thead th {
+      background-color: #f8fafc;
+      color: #4a5568;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 0.75rem;
+      letter-spacing: 0.5px;
+      padding: 15px 20px;
+      border-bottom: 2px solid #e2e8f0;
+      position: sticky;
+      top: 0;
+    }
+    
+    .employee-table tbody td {
+      padding: 15px 20px;
+      border-bottom: 1px solid #edf2f7;
+      vertical-align: middle;
+      color: #111111;
+      font-size: 0.875rem;
+    }
+    
+    .employee-table tbody tr:last-child td {
+      border-bottom: none;
+    }
+    
+ 
+    .status-badge {
+      display: inline-block;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.3px;
+    }
+    
+    .badge-active {
+      background-color: #ebf8f2;
+      color: #2f855a;
+    }
+    
+    .badge-inactive {
+      background-color: #fff5f5;
+      color: #c53030;
+    }
+    
+    .badge-conge {
+      background-color: #fffaf0;
+      color: #c05621;
+    }
+    
+    .action-buttons .btn {
+      background-color: none;
+      background-color: tr;
+      padding: 6px 12px;
+      font-size: 1.5rem;
+      margin-right: 6px;
+      border-radius: 6px;
+      font-weight: 500;
+      transition: all 0.2s ease;
+    }
+    
+    .action-buttons .btn:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    
+    .btn-edit {
+      background-color: #16e037;
+      color: rgb(30, 203, 82) !important;
+      border: none;
+    }
+    
+    .btn-edit:hover {
+      background-color: #3182ce;
+    }
+    
+    .btn-delete {
+      background-color: #c70000;
+      color: #c70000 !important;
+      border: none;
+    }
+    .btn.btn-sm.btn-delete.delete-btn.bi.bi-trash{
+      color: #c70000 !important;
+
+    }
+    .btn-delete:hover {
+      background-color: #e53e3e;
+    }
+    
+    .btn-details {
+      background-color: #48bb78;
+      color: rgb(31, 31, 167) !important;
+      border: none;
+    }
+    
+    .btn-details:hover {
+      background-color: #38a169;
+    }
+    
+    .profile-image {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid #e2e8f0;
+      transition: transform 0.3s ease;
+    }
+    
+    .profile-image:hover {
+      transform: scale(1.1);
+    }
+    
+    /* Employee Details Modal Styling */
+    .employee-details-container {
+      padding: 20px;
+    }
+    
+    .employee-details-header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #e2e8f0;
+      padding-bottom: 15px;
+    }
+    
+    .employee-details-photo {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 20px;
+      border: 3px solid #e2e8f0;
+    }
+    
+    .employee-details-name {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #2d3748;
+      margin-bottom: 5px;
+    }
+    
+    .employee-details-position {
+      font-size: 1rem;
+      color: #718096;
+      margin-bottom: 10px;
+    }
+    
+    .employee-details-status {
+      display: inline-block;
+      padding: 5px 10px;
+      border-radius: 20px;
+      font-size: 0.875rem;
+      font-weight: 600;
+    }
+    
+    .employee-details-body {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+    }
+    
+    .employee-details-group {
+      margin-bottom: 15px;
+    }
+    
+    .employee-details-label {
+      font-size: 0.875rem;
+      color: #718096;
+      font-weight: 500;
+      margin-bottom: 5px;
+    }
+    
+    .employee-details-value {
+      font-size: 1rem;
+      color: #2d3748;
+      font-weight: 500;
+    }
+    
+    .employee-details-actions {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 20px;
+      gap: 10px;
+    }
+    
+    /* Keep your existing button styles */
+    button.btn.btn-custom-blue {
+      background-color: oklch(0.828 0.111 230.318);
+      color: white !important;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight:bold;
+      border-color: oklch(0.901 0.058 230.902) !important;
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-right: auto;
+    }
+    
+    .btn-no-wrap {
+      white-space: nowrap;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }  
+    
+    button.btn.btn-custom-blue.btn-no-wrap.btn-employe {
+      background: linear-gradient(135deg, #3a7bd5, #00d2ff);
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 50px;
+      font-weight: 600;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+    }
+    
+    button.btn.btn-custom-blue.btn-no-wrap.btn-employe:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    }
+    
+    /* Pagination styling */
+    .pagination-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 25px;
+      padding: 15px 0;
+      border-top: 1px solid #e2e8f0;
+    }
+    
+    .pagination-info {
+      font-size: 0.875rem;
+      color: #718096;
+    }
+    
+    .pagination .page-item.active .page-link {
+      background-color: #4299e1;
+      border-color: #4299e1;
+      color: white;
+    }
+    
+    .pagination .page-link {
+      color: #4a5568;
+      font-size: 0.875rem;
+      border: 1px solid #e2e8f0;
+      margin: 0 4px;
+      border-radius: 6px !important;
+      min-width: 36px;
+      text-align: center;
+    }
+    
+    .pagination .page-link:hover {
+      background-color: #ebf8ff;
+      color: #2b6cb0;
+    }
+    .sidebar-item{
+      padding: 10px;
+      margin-bottom: 1px;
+
+    }
+    .sidebar-item:hover{
+      padding: 10px;
+      border: 1 px color(srgb red );
+      background-color: hsl(191, 64%, 45%);
+    }
+    /* Table header styling */
+    .table-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px; /* Reduced from 20px */
+    }
+    .hide-menu,.sidebar-item,.sidebaritem,
+    .nav-link{
+  color: #080808;
+    }
+    .sidebar-item
+   {
+margin-left: 15%;
+    }
+    .nav-small-cap
+   {
+margin-left: 40%;
+    }
+    .logo{
+      margin-top: 10px;
+      width: 80%;
+     margin-left: 25%;
+    
+      margin-bottom: 110px;
+    }
+    .Listes{
+      margin-left: 10%;
+      width: 50%;
+    }
+    .table-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #0a0a0a;
+      margin-top: 0; /* Ensure no margin on top */
+    }
+
+    @media (max-width: 768px) {
+      .employee-table-container {
+         background-color: #f1f2f3;
+        padding: 10px; /* Reduced from 15px */
+        margin-top: 5px; /* Reduced from default */
+      }
+      
+      .employee-table thead th,
+      .employee-table tbody td {
+        padding: 10px 8px; /* Reduced from 12px 8px */
+      }
+      
+     
+      
+      .employee-details-body {
+        grid-template-columns: 1fr;
+      }
+    }
+.sidebarnav{
+  margin-left: 15%;
+}
+
+   
